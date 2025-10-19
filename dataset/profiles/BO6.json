@@ -1,0 +1,12 @@
+{
+  "boundingBoxWidth": 404,
+  "boundingBoxHeight": 290,
+  "speedX": 86,
+  "speedY": 86,
+  "colorConfidence": 0.85,
+  "aimOffsetX": 0,
+  "aimOffsetY": 46,
+  "aimSmoothing": false,
+  "smoothAimFactor": 0.0,
+  "aimActivationButton": "BUTTON_7"
+}
