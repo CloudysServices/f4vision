@@ -4,11 +4,11 @@ showBoundingBox = True
 
 ### AIM ASSIST SETTINGS ###
 aimAssist = True
-speedX = 85
-speedY = 85
+speedX = 53
+speedY = 53
 aimSmoothing = False
-boundingBoxWidth = 502
-boundingBoxHeight = 348
+boundingBoxWidth = 771
+boundingBoxHeight = 523
 boundingBoxColor = [102, 51, 153]
 adaptiveBoundingBox = False
 manualOveride = False
@@ -32,8 +32,8 @@ aimActivationButton = "BUTTON_7"
 
 # Aim Offset
 aimOffsetX = 0
-aimOffsetY = 51
-colorConfidence = 0.59
+aimOffsetY = 46
+colorConfidence = 0.80
 detectionLatency = 5
 
 # NEW: Prediction settings for moving targets
@@ -64,3 +64,4 @@ stickyAim = True
 rotationalAA = True
 microCorrections = True
 headshotPriority = True
+smoothAimFactor = 0.0
