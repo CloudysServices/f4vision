@@ -7,8 +7,8 @@ aimAssist = True
 speedX = 53
 speedY = 53
 aimSmoothing = False
-boundingBoxWidth = 771
-boundingBoxHeight = 523
+boundingBoxWidth = 812
+boundingBoxHeight = 526
 boundingBoxColor = [102, 51, 153]
 adaptiveBoundingBox = False
 manualOveride = False
@@ -32,9 +32,10 @@ aimActivationButton = "BUTTON_7"
 
 # Aim Offset
 aimOffsetX = 0
-aimOffsetY = 46
+aimOffsetY = 42
 colorConfidence = 0.80
 detectionLatency = 5
+aiSensitivity = 15.0  # 0-100: Lower = more sensitive AI, Higher = less sensitive
 
 # NEW: Prediction settings for moving targets
 predictionStrength = 70
@@ -46,22 +47,12 @@ aspectRatioMin = 0.3    # Minimum width/height ratio
 aspectRatioMax = 3.0    # Maximum width/height ratio  
 densityThreshold = 0.37  # Minimum pixel density (area/(w*h)) to avoid sparse noise
 
-# Advanced Aim Settings - Fully Customizable
-responseCurveType = 0
-curveIntensity = 50
-smoothingFactor = 30
-deadzoneAim = 3
-
 # Prediction Settings
 predictionStrength = 70
 movementPrediction = True
 
 # Hard Lock Settings
 lockStrength = 80
-stickyAim = True
 
 # Advanced Features
-rotationalAA = True
-microCorrections = True
-headshotPriority = True
-smoothAimFactor = 0.0
+smoothAimFactor = 0.00
