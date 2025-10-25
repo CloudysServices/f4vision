@@ -65,9 +65,8 @@ rotationalAA = True
 microCorrections = True
 headshotPriority = True
 smoothAimFactor = 0.0
-twoStepAiming = True
-acquisitionSensitivity = 25    # Phase 1: Fast snap
-trackingSensitivity = 12       # Phase 2: Precision lock  
-microSensitivity = 6           # Phase 3: Micro-adjustments
-acquisitionToTrackingThreshold = 15  # When to switch phases
-microCorrectionThreshold = 3         # When to micro-adjust
+# Add to settings.py:
+continuousTracking = True      # Never stop moving
+minTrackingMovement = 1.0     # Minimum stick output
+aimOffsetX = 10               # Horizontal offset from center  
+aimOffsetY = -5               # Vertical offset from center
