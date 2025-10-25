@@ -65,8 +65,3 @@ rotationalAA = True
 microCorrections = True
 headshotPriority = True
 smoothAimFactor = 0.0
-# Add to settings.py:
-continuousTracking = True      # Never stop moving
-minTrackingMovement = 1.0     # Minimum stick output
-aimOffsetX = 10               # Horizontal offset from center  
-aimOffsetY = -5               # Vertical offset from center
