@@ -36,9 +36,6 @@ aimOffsetY = 49
 colorConfidence = 0.70
 detectionLatency = 5
 
-# NEW: Prediction settings for moving targets
-predictionStrength = 70
-
 # Noise Reduction Settings
 minPixelArea = 12        # Minimum pixel area to consider as valid target
 maxPixelArea = 200      # Maximum pixel area to avoid large false positives
@@ -57,7 +54,7 @@ predictionStrength = 70
 movementPrediction = True
 
 # Hard Lock Settings
-lockStrength = 80
+lockStrength = 90
 stickyAim = True
 
 # Advanced Features
@@ -65,3 +62,10 @@ rotationalAA = True
 microCorrections = True
 headshotPriority = True
 smoothAimFactor = 0.0
+
+# ADVANCED TRACKING SETTINGS (NEW)
+adaptiveTracking = True     # Adjust for target speed
+precisionAimMode = True     # Enable zero-pixel precision aiming
+manualOverrideLock = 10     # Manual control percentage when locked (0-100)
+maxManualMovement = 5.0     # Maximum manual movement strength
+humanizeManual = True       # Add tiny random variation for human feel
