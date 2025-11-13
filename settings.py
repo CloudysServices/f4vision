@@ -7,8 +7,8 @@ aimAssist = True
 speedX = 85
 speedY = 85
 aimSmoothing = False
-boundingBoxWidth = 429
-boundingBoxHeight = 303
+boundingBoxWidth = 527
+boundingBoxHeight = 328
 boundingBoxColor = [102, 51, 153]
 adaptiveBoundingBox = False
 manualOveride = False
@@ -28,7 +28,7 @@ yoloConfidence = 0.5  # Confidence threshold (0.0-1.0)
 targetClasses = [0]  # COCO class IDs: 0=person, 1=bicycle, 2=car, etc.
 
 # Activation Button
-aimActivationButton = "BUTTON_7"
+aimActivationButton = "BUTTON_8"
 
 # Aim Offset
 aimOffsetX = 0
@@ -36,8 +36,9 @@ aimOffsetY = 49
 colorConfidence = 0.70
 detectionLatency = 5
 
-# NEW: Prediction settings for moving targets
-predictionStrength = 70
+# Aimbot FOV and Confidence
+aimFOV = 350                # Field of view for target acquisition  
+aimConfidence = 0.45        # Detection confidence threshold
 
 # Noise Reduction Settings
 minPixelArea = 12        # Minimum pixel area to consider as valid target
