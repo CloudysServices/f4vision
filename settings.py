@@ -30,15 +30,11 @@ targetClasses = [0]  # COCO class IDs: 0=person, 1=bicycle, 2=car, etc.
 # Activation Button
 aimActivationButton = "BUTTON_8"
 
-# Aim Offset
+# Aim Offset - THIS IS WHAT MATTERS
 aimOffsetX = 0
 aimOffsetY = 49
 colorConfidence = 0.70
 detectionLatency = 5
-
-# Aimbot FOV and Confidence
-aimFOV = 350                # Field of view for target acquisition  
-aimConfidence = 0.45        # Detection confidence threshold
 
 # Noise Reduction Settings
 minPixelArea = 12        # Minimum pixel area to consider as valid target
